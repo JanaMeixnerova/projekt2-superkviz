@@ -1,23 +1,36 @@
 <!DOCTYPE html>
 <html>
+	<head>
+		
+		<link href="style.css" rel="stylesheet">
+		<script defer src="quiz.js"></script>
 
-<head>
-	<meta charset="utf-8" />
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Superkvíz</title>
-	<link rel="stylesheet" href="style.css">
-</head>
-<body>
+		<title>Super QUIZ</title>
+		
+	</head>
+	<body>
 
+	<div class="container">
+		<div id="question-container"  class="hide">
+			<div id="question">Question</div>
+			<div id="answer-buttons" class="btn-grid">
+				<button class="btn">Answer 1</button>
+				<button class="btn">Answer 2</button>
+				<button class="btn">Answer 3</button>
+				<button class="btn">Answer 4</button>
 
-	<h1>Superkvíz</h1>
+			</div>
+		</div>
+		<div class="controls">
+			<button id="start-btn">  Start </button>
+			<button id="next-btn">  Next </button>
 
-	<!-- přidat <div> pro kvíz -->
-	<!-- do něj přidat <div>y pro samotné držení otázky -->
-	<!-- také nezapomenout na <div> pro výsledek a hodnocení -->
+		</div>
+	</div>
+    	
 
-	<script src="kviz.js"></script>
-
-</body>
+	
+	
+		
+	</body>
 </html>
